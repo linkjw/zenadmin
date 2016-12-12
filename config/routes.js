@@ -34,7 +34,13 @@ module.exports.routes = {
 
   '/': {
     view: 'homepage'
-  }
+  },
+  'get /admin': {
+    view: 'admin/main',
+    locals: {
+      layout: 'layouts/admin_layout'
+    }
+  },
 
   /***************************************************************************
   *                                                                          *
