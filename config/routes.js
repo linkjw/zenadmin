@@ -40,7 +40,7 @@ module.exports.routes = {
     locals: {
       layout: 'layouts/admin_layout'
     }
-  },
+  }
 
   /***************************************************************************
   *                                                                          *
